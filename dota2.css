@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #081e29;
+    padding: 20px;
+    padding-inline: 74px;
+    position: fixed;
+    top: 0%;
+}
+header a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bolder;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    color: antiquewhite;
+}
+
+header .container{
+    display: flex;
+    justify-content: left;
+}
+.logo{
+    min-height: 30px;
+    min-width: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+.banner-container{
+    margin-top: 60px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images6.alphacoders.com/129/1291620.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.banner-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+}
+.left-section{
+    width: 600px;
+    position: relative;
+    top: -60px;
+}
+.left-section h1{
+    color: aliceblue;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+.left-section p{
+    margin: 0%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+    font-style: italic;
+    line-height: 28px;
+}
+.left-section button{
+    color:white;
+    font-size: 15px;
+    background-color:#081e29;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.right-section{
+    align-self: center;
+    width: 400px;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 40px 0;
+    box-shadow: 0px 5px 6px rgba(black);
+}
+
+.right-section h4{
+    font-size: 20px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-inline: 25px;
+    padding-bottom: -4px;
+    font-style: italic;
+    color: white;
+}
+
+.input-group {
+    width: 250px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label{
+    color: #f5f6f7;
+    font-style: italic;
+    font: bold;
+}
+
+.input-group input{
+    border-color: #081e29;
+    border-radius: 10px;
+}
+
+.submit-section{
+  text-align: center;
+}
+.submit-button{
+    background-color:transparent;
+    color: white;
+    padding: 10px 0;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-color: #081e29;
+    width: 200px;
+    cursor: pointer;
+}
+.submit-section{
+    padding-left: 2rem;
+}
+
+footer{
+    text-align: center;
+    background-color: #081e29;
+}
+.foot1{
+    color: aliceblue;
+}
